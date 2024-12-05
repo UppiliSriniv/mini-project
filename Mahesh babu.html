@@ -1,0 +1,397 @@
+<html>
+
+<head>
+    <title>Mahesh Babu</title>
+    <style>
+        body {
+            background-image: url(https://img.freepik.com/premium-vector/hand-painted-watercolor-abstract-background_889452-35229.jpg?w=996);
+
+        }
+
+        .heading {
+          background-image: linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+          color: white;
+           /*background-color: white;*/
+        
+           /* animation-name: move;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;*/
+        }
+
+        @keyframes move {
+         0%{color: white;}
+         50%{color: orange;}
+         100%{color: yellow;}
+}
+        h1 {
+            color: white;
+            text-align: center;
+            padding: 20px;
+            animation-name: move;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        h2 {
+            color: red;
+            font-style: italic;
+            text-align: center;
+            margin-top: 25px;
+        }
+
+
+        .main img {
+            border: 2px solid black;
+        }
+
+        #bio {
+            text-align: justify;
+            font-size: large;
+            font-family: Arial, sans-serif;
+            color: blueviolet;
+            padding: 20px;
+        }
+
+        .top {
+            width: 100%;
+            height: 20px;
+            padding: 5px;
+            position: sticky;
+            top: 0px;
+            background-color: rgb(118, 175, 177);
+            color: black;
+        }
+
+        .top a {
+            text-decoration: None;
+        }
+
+        #movie {
+
+            width: 45%;
+            height: 400px;
+            background: linear-gradient(to bottom right, rgb(249, 113, 2), yellow);
+            /*background-image: linear-gradient(to bottom right,rgb(151, 118, 250),rgb(165, 178, 252));*/
+            float: left;
+            padding: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            margin-left: 10px;
+            margin-right: 10px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            border-radius: 30px;
+            /*box-shadow: 5px 5px 15px 5px lightcoral;*/
+        }
+        #gallery h2{
+            row-gap: 20px;
+        }
+
+
+        #awards {
+            width: 45%;
+            height: 400px;
+            color: white;
+            background: linear-gradient(to bottom right, #2c3e50, #bdc3c7);
+            );
+
+            /*background-image: linear-gradient(to bottom right,lightcoral,pink);*/
+            float: left;
+            padding: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            border-radius: 30px;
+        }
+
+        #movie:hover{
+            opacity: 0.8;
+        }
+
+        #awards:hover{
+            opacity: 0.8;
+        }
+
+
+        #movie ul li{
+            color: blue;
+        }
+
+        .container {
+
+            width: 500px;
+            border: 1px solid black;
+            padding: 20px;
+            margin: auto;
+            display: block;
+        }
+
+        .image1 {
+            margin: 20px;
+            width: 30%;
+            border: 1px solid black;
+            float: left;
+
+        }
+
+        .image2 {
+            margin: 20px;
+            width: 30%;
+            border: 1px solid black;
+            float: left;
+
+        }
+
+        .image3 {
+            width: 30%;
+            margin: 20px;
+            border: 1px solid black;
+            float: left;
+
+        }
+
+        .image1:hover {
+            box-shadow: 10px 10px 15px 5px red;
+        }
+
+        .image2:hover {
+            box-shadow: 10px 10px 15px 5px gold;
+        }
+
+        .image3:hover {
+            box-shadow: 10px 10px 15px 5px black;
+        }
+
+        #button-light{
+      background-color: green;
+      color: white;
+  }
+
+        #button-light:hover {
+    background-color: limegreen;
+}
+        
+        @media screen and (max-width: 600px){
+            #movie, #awards{
+            width: auto;
+            float: none;
+        }
+        .image1, .image2, .image3{
+            width: auto;
+            float: none;
+        }
+   
+    }
+    </style>
+</head>
+
+
+<body>
+    <div class="heading">
+        <h1>Mahesh Babu</h1>
+    </div>
+    <div class="top">
+        <center>
+            
+            <a href="file:///C:/Users/Uppili%20Srinivasan%20P/OneDrive/Documents/Mahesh%20babu.html"><b>Home</b></a>&nbsp&nbsp&nbsp&nbsp
+            <a href="file:///C:/Users/Uppili%20Srinivasan%20P/OneDrive/Documents/About.html"
+                target="_blank"><b>About</b></a> &nbsp&nbsp&nbsp&nbsp
+            <a href="file:///C:/Users/Uppili%20Srinivasan%20P/OneDrive/Documents/acheivement.html"
+                target="_blank"><b>Achievements</b></a>&nbsp&nbsp&nbsp&nbsp
+            <a href="#contact"><b>Contact</b></a> <br><br><br>
+        </center>
+    </div>
+    <br> <br>
+    <center>
+        <div class="main">
+            <img src="https://www.hyderabadevents.com/assets/uploads/5e0359f558d7996f0971f74e963da28e.png" width="400px"
+                height="400px" alt="Mahesh Babu">
+        </div>
+    </center>
+
+
+    <section id="biography">
+        <h2>Biography</h2>
+        <p id="bio">
+            Mahesh Babu, born on August 9, 1975, in Chennai, Tamil Nadu, is a celebrated Indian film actor and producer
+            primarily known for his work in Telugu cinema. He hails from a prominent film family; his father, Krishna,
+            is a renowned actor and filmmaker, while his mother, Indira Devi, is a homemaker. Mahesh has an elder
+            sister, Padmavathi, and a younger brother, Ramesh Babu, who is also involved in the film industry.
+
+            Mahesh Babu was raised in a film-oriented environment, which sparked his interest in acting from a young
+            age. He made his acting debut as a child artist in the 1989 film "Needa." He continued to act in several
+            films during his childhood. He later pursued his education in commerce at St. Mary's College, Hyderabad.
+
+            Mahesh Babu's career took off when he starred as a lead actor in the film "Rajakumarudu" (1999), which
+            became a commercial success. He gained significant recognition with films like "Murari" (2001), "Okkadu"
+            (2003), and "Pokiri" (2006), which established him as a leading star in Telugu cinema.
+
+            His roles often portray strong, principled characters, resonating with audiences. Mahesh has consistently
+            delivered hit films, including "Dookudu" (2011), "Baadshah" (2013), "Srimanthudu" (2015), and "Bharat Ane
+            Nenu" (2018). He has received numerous accolades, including several Nandi Awards and Filmfare Awards.
+
+            Mahesh Babu married actress Namrata Shirodkar in 2005. The couple has two children, a son named Gautam and a
+            daughter named Sitara. Mahesh is known for his down-to-earth personality and often keeps his personal life
+            private.
+
+            Beyond acting, Mahesh Babu is actively involved in philanthropic activities, particularly in education and
+            health. He founded the Heal-a-Child foundation, which supports children in need of medical treatment. He
+            also owns the production company G. Mahesh Babu Entertainment Pvt. Ltd.
+
+            Mahesh Babu is often referred to as the "Prince of Tollywood" due to his immense popularity and influence in
+            the film industry. He has a vast fan base and is known for his stylish persona, making him one of the
+            highest-paid actors in Indian cinema. His work has significantly contributed to the growth of Telugu cinema
+            on national and international platforms.
+
+            In summary, Mahesh Babu's journey from a child artist to a superstar exemplifies his talent and dedication
+            to the film industry, solidifying his status as an iconic figure in Indian cinema.
+        </p>
+
+    </section><br><br>
+    <section id="films">
+        <div id="movie">
+            <h2 style="color: purple;">Popular Films</h2>
+            <p>
+                Mahesh Babu is a prominent actor in Telugu cinema, known for his charismatic performances and box office
+                successes. Some of his popular films include:
+            </p>
+
+            <ul>
+                <li>Pokiri</li>
+                <li>Dookudu</li>
+                <li>Businessman</li>
+                <li>Srimanthudu</li>
+                <li>Bharat Ane Nenu</li>
+                <li>Maharshi</li>
+                <li>Sarkaru Vaari Paata</li>
+
+            </ul>
+
+
+            <p>
+                These films highlight his range as an actor and his popularity in the Telugu film industry.
+            </p>
+        </div>
+    </section>
+
+    <section id="award">
+        <div id="awards">
+            <h2 style="color: gold;">Achievements</h2>
+            <p>
+                Mahesh Babu has received numerous awards throughout his career, recognizing his talent and contributions
+                to Telugu cinema. Some of the notable awards include:</p><br>
+            <ol>
+                <li>Nandi Awards</li>
+                <li>Filmfare Awards South</li>
+                <li>IIFA Utsavam Awards</li>
+                <li>South Indian International Movie Awards (SIIMA)</li>
+                <li>Telugu Cinema Awards</li>
+                <li>Lifetime Achievement Awards</li>
+            </ol>
+            <p>These awards reflect his impact on Indian cinema and his popularity among fans and critics alike.
+            </p>
+        </div>
+    </section><br>
+
+    
+        
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="image1">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/ky0g58w0/poster/a/l/k/small-mahesh-babu-actor-charming-handsome-handsomehunk-original-imagac5afjksg3tk.jpeg?q=90&crop=false"
+                alt="img1" width="100%" height="500px">
+        </div>
+        <div class="image2">
+            <img src="https://rukminim2.flixcart.com/image/850/1000/kxuqdu80/wall-decoration/q/m/m/mahesh-babu-handsome-indian-actor-prince-ssmb-wallpaper-poster-1-original-imaga7xuwehj8yrp.jpeg?q=90&crop=false"
+                alt="img2" width="100%" height="500px">
+        </div>
+        <div class="image3">
+            <img src="https://media.assettype.com/filmcompanion%2F2024-03%2Fe1f8e40f-5e1d-49b8-9af4-c3e98276b5cd%2FHD_wallpaper_mahesh_babu_ka_red_shirt_actor_south_indian.jpg"
+                alt="img3" width="100%" height="500px">
+        </div><br>
+
+    </section><br>
+
+
+
+    <br><br><br>
+    <h2>Business</h2>
+    <p id="bio">
+        Mahesh is known for his philanthropic work and has adopted villages in Andhra Pradesh and Telangana to develop
+        their infrastructure and education facilities. He is also involved in several business ventures, including his
+        own production company, G. Mahesh Babu Entertainment Pvt. Ltd., through which he has produced several of his own
+        films. Additionally, he is a brand ambassador for numerous big brands, making him one of the highest-paid
+        celebrity endorsers in South India.
+
+        Mahesh Babu is a prominent Indian actor and film producer, known primarily for his work in Telugu cinema. Born
+        on August 9, 1975, in Chennai, Tamil Nadu, he comes from a family deeply rooted in the film industry-his father,
+        Krishna, is a legendary actor and producer.
+
+        Mahesh made his acting debut as a child artist and later rose to fame with leading roles in films like "Murari,"
+        "Okkadu," "Pokiri," and "Bharat Ane Nenu." He is celebrated for his charisma, screen presence, and versatility,
+        often portraying characters with strong moral values.
+
+        In addition to acting, he has also been involved in various philanthropic efforts, focusing on education and
+        health. With numerous awards to his name, including several Nandi Awards and Filmfare Awards, Mahesh Babu is
+        often referred to as "Prince of Tollywood" and remains one of the highest-paid actors in the industry. His
+        popularity extends beyond films, as he has a significant fan base and is known for his endorsements and social
+        media presence.
+    </p>
+
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <center>
+            <div class="container">
+                <form>
+                    <center>
+                        Name : &nbsp&nbsp
+                        <input type="text" name="name" required><br><br>
+                        Email : &nbsp&nbsp
+                        <input type="email" name="email" required><br><br>
+                        Message : &nbsp&nbsp
+                        <textarea name="message" required></textarea><br><br>
+
+                        <button type="submit" id="button-light">Submit</button>
+                    </center>
+                </form>
+            </div>
+        </center>
+        <!--<h2>Contact</h2>
+        <p>If you have any questions, feel free to email us at: <a href="mailto:maheshbabu_fan@gmail.com">maheshbabu_fan@gmail.com</a></p>
+    -->
+    </section>
+
+
+    <br>
+    <a href="#biography">Biography</a> <br>
+    <a href="#films">Films</a> <br>
+    <a href="#contact">Contact</a> <br>
+    <a href="#award">Achievements</a> <br>
+
+
+    <a href="https://www.instagram.com/"><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png"
+            width="25px" target="_blank"></a>&nbsp&nbsp
+    <a href="https://x.com/?lang=en"><img
+            src="https://e7.pngegg.com/pngimages/617/28/png-clipart-twitter-logo-blue-sky-wing-beak-font-twitter-blue-social-media-thumbnail.png"
+            width="25px" target="_blank"></a>&nbsp&nbsp
+    <a href="https://www.facebook.com/"><img
+            src="https://e7.pngegg.com/pngimages/670/159/png-clipart-facebook-logo-social-media-facebook-computer-icons-linkedin-logo-facebook-icon-media-internet-thumbnail.png"
+            width="25px" target="_blank"></a>&nbsp&nbsp
+    <br>
+    <center>
+        &copy; 2024 Mahesh Babu Fan Page
+    </center>
+
+</body>
+
+</html>
